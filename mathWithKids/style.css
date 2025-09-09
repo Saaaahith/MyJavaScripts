@@ -1,0 +1,24 @@
+button {
+  background-color: rgb(42, 81, 237);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: beige;
+  gap: 10px;
+  border: none;
+}
+#result1 {
+  color: blue;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button:hover {
+  background-color: white;
+  color: rgb(42, 81, 237);
+}
